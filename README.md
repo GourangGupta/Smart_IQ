@@ -1,4 +1,4 @@
-# SmartIQ Quiz
+# Smart!Q Quiz
 
 A dynamic and interactive quiz web application, **SmartIQ**, allows users to test their knowledge across various categories and difficulty levels. The quiz leverages the **Open Trivia Database (OpenTDB)** API to fetch trivia questions, offering a wide range of topics and challenges. 
 
