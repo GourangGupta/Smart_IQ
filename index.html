@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SmartIQ Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Add Font Awesome CDN for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  </head>
+  <body>
+    <div class="settings">
+      <!-- Updated heading with an icon -->
+      <h2><i class="fas fa-lightbulb"></i>  Smart !Q </h2>
+      <label for="category">Category : </label>
+      <select id="category">
+        <option value="18">Computers</option>
+        <option value="9">General Knowledge</option>
+        <option value="17">Science & Nature</option>
+        <option value="20">Miscellaneous</option> 
+      </select>
+      <br /><br />
+
+      <label for="difficulty">Difficulty : </label>
+      <select id="difficulty">
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard">Hard</option>
+      </select>
+      <br /><br />
+
+      <button class="startBtn">Start Quiz</button>
+    </div>
+
+    <div class="container" style="display: none">
+      <div class="question"></div>
+      <div class="choices"></div>
+      <div class="scoreCard">
+        <div class="scoreText"></div>
+        <button class="retakeBtn" style="display: none;">Retake Quiz</button>
+      </div>
+      
+      <div class="alert"></div>
+      <div class="timer"></div>
+      <button class="prevBtn">Previous</button>
+      <button class="nextBtn">Next</button>
+      <div class="progress">
+        <span class="progress-text"></span>
+      </div>
+    </div>
+   
+    <script src="script.js"></script>
+  </body>
+</html>
